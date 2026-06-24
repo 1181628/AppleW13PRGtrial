@@ -130,7 +130,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -144,7 +144,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -168,7 +168,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -193,37 +193,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: role8_0
-      rect:
-        serializedVersion: 2
-        x: 14
-        y: 274
-        width: 45
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 681c7f4ecc1d98f20800000000000000
-      internalID: 3425499669536948614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: role8_1
       rect:
         serializedVersion: 2
-        x: 79
-        y: 275
-        width: 49
-        height: 78
+        x: 67
+        y: 274
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -240,12 +218,12 @@ TextureImporter:
       name: role8_2
       rect:
         serializedVersion: 2
-        x: 145
-        y: 277
-        width: 49
-        height: 80
+        x: 134
+        y: 274
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -262,12 +240,12 @@ TextureImporter:
       name: role8_3
       rect:
         serializedVersion: 2
-        x: 213
-        y: 281
-        width: 44
-        height: 79
+        x: 201
+        y: 274
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,12 +262,12 @@ TextureImporter:
       name: role8_4
       rect:
         serializedVersion: 2
-        x: 281
-        y: 273
-        width: 41
-        height: 82
+        x: 268
+        y: 274
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -306,12 +284,12 @@ TextureImporter:
       name: role8_5
       rect:
         serializedVersion: 2
-        x: 347
-        y: 272
-        width: 42
-        height: 80
+        x: 335
+        y: 274
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -328,12 +306,12 @@ TextureImporter:
       name: role8_6
       rect:
         serializedVersion: 2
-        x: 413
-        y: 277
-        width: 45
-        height: 78
+        x: 402
+        y: 274
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -350,12 +328,12 @@ TextureImporter:
       name: role8_7
       rect:
         serializedVersion: 2
-        x: 481
-        y: 281
-        width: 48
-        height: 78
+        x: 469
+        y: 274
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -372,12 +350,12 @@ TextureImporter:
       name: role8_8
       rect:
         serializedVersion: 2
-        x: 9
-        y: 186
-        width: 56
-        height: 80
+        x: 0
+        y: 184
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -394,12 +372,12 @@ TextureImporter:
       name: role8_9
       rect:
         serializedVersion: 2
-        x: 76
-        y: 186
-        width: 48
-        height: 78
+        x: 67
+        y: 184
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -416,12 +394,12 @@ TextureImporter:
       name: role8_10
       rect:
         serializedVersion: 2
-        x: 144
-        y: 186
-        width: 40
-        height: 81
+        x: 134
+        y: 184
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -438,12 +416,12 @@ TextureImporter:
       name: role8_11
       rect:
         serializedVersion: 2
-        x: 203
-        y: 188
-        width: 54
-        height: 82
+        x: 201
+        y: 184
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -461,11 +439,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 268
-        y: 190
-        width: 65
-        height: 77
+        y: 184
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -482,12 +460,12 @@ TextureImporter:
       name: role8_13
       rect:
         serializedVersion: 2
-        x: 337
-        y: 191
-        width: 56
-        height: 74
+        x: 335
+        y: 184
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -504,12 +482,12 @@ TextureImporter:
       name: role8_14
       rect:
         serializedVersion: 2
-        x: 409
-        y: 190
-        width: 45
-        height: 77
+        x: 402
+        y: 184
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -526,12 +504,12 @@ TextureImporter:
       name: role8_15
       rect:
         serializedVersion: 2
-        x: 478
-        y: 192
-        width: 46
-        height: 78
+        x: 469
+        y: 184
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -548,12 +526,12 @@ TextureImporter:
       name: role8_16
       rect:
         serializedVersion: 2
-        x: 3
-        y: 100
-        width: 56
-        height: 78
+        x: 0
+        y: 94
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -570,12 +548,12 @@ TextureImporter:
       name: role8_17
       rect:
         serializedVersion: 2
-        x: 78
-        y: 101
-        width: 47
-        height: 75
+        x: 67
+        y: 94
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -592,12 +570,12 @@ TextureImporter:
       name: role8_18
       rect:
         serializedVersion: 2
-        x: 152
-        y: 101
-        width: 40
-        height: 78
+        x: 134
+        y: 94
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -614,12 +592,12 @@ TextureImporter:
       name: role8_19
       rect:
         serializedVersion: 2
-        x: 213
-        y: 102
-        width: 54
-        height: 79
+        x: 201
+        y: 94
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -636,12 +614,12 @@ TextureImporter:
       name: role8_20
       rect:
         serializedVersion: 2
-        x: 271
-        y: 97
-        width: 65
-        height: 80
+        x: 268
+        y: 94
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -658,12 +636,12 @@ TextureImporter:
       name: role8_21
       rect:
         serializedVersion: 2
-        x: 345
-        y: 96
-        width: 56
-        height: 79
+        x: 335
+        y: 94
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -680,12 +658,12 @@ TextureImporter:
       name: role8_22
       rect:
         serializedVersion: 2
-        x: 419
-        y: 96
-        width: 44
-        height: 82
+        x: 402
+        y: 94
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -702,12 +680,12 @@ TextureImporter:
       name: role8_23
       rect:
         serializedVersion: 2
-        x: 482
-        y: 98
-        width: 46
-        height: 83
+        x: 469
+        y: 94
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -724,12 +702,12 @@ TextureImporter:
       name: role8_24
       rect:
         serializedVersion: 2
-        x: 9
-        y: 3
-        width: 45
-        height: 85
+        x: 0
+        y: 4
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -746,12 +724,12 @@ TextureImporter:
       name: role8_25
       rect:
         serializedVersion: 2
-        x: 74
+        x: 67
         y: 4
-        width: 49
-        height: 82
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -768,12 +746,12 @@ TextureImporter:
       name: role8_26
       rect:
         serializedVersion: 2
-        x: 142
-        y: 6
-        width: 49
-        height: 83
+        x: 134
+        y: 4
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -790,12 +768,12 @@ TextureImporter:
       name: role8_27
       rect:
         serializedVersion: 2
-        x: 213
+        x: 201
         y: 4
-        width: 44
-        height: 87
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -812,12 +790,12 @@ TextureImporter:
       name: role8_28
       rect:
         serializedVersion: 2
-        x: 282
+        x: 268
         y: 4
-        width: 41
-        height: 84
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -834,12 +812,12 @@ TextureImporter:
       name: role8_29
       rect:
         serializedVersion: 2
-        x: 349
-        y: 6
-        width: 42
-        height: 81
+        x: 335
+        y: 4
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -856,12 +834,12 @@ TextureImporter:
       name: role8_30
       rect:
         serializedVersion: 2
-        x: 414
-        y: 7
-        width: 45
-        height: 83
+        x: 402
+        y: 4
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -878,12 +856,12 @@ TextureImporter:
       name: role8_31
       rect:
         serializedVersion: 2
-        x: 477
-        y: 3
-        width: 48
-        height: 89
+        x: 469
+        y: 4
+        width: 67
+        height: 90
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -896,11 +874,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: role8_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 274
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7c9db4c0ee8d44299a9cff5ce63697
+      internalID: 3425499669536948614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ef245a0358a0f5449b32ae16c46c98c5
     internalID: 0
     vertices: []
     indices: 
@@ -908,7 +908,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":67.0,"y":90.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       role8_0: 3425499669536948614
       role8_1: -6905746890770884815
