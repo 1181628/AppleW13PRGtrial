@@ -311,6 +311,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2057005326}
   - component: {fileID: 2057005325}
+  - component: {fileID: 2057005327}
   - component: {fileID: 2057005324}
   - component: {fileID: 2057005323}
   - component: {fileID: 2057005322}
@@ -356,8 +357,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.31404734, y: 0.4567964}
-  m_Size: {x: 1.960619, y: 3.7407155}
+  m_Offset: {x: -0.31404734, y: 0.042824745}
+  m_Size: {x: 1.960619, y: 4.568659}
   m_Direction: 0
 --- !u!50 &2057005322
 Rigidbody2D:
@@ -420,7 +421,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.11419892, y: -1.7558105}
+  m_Offset: {x: -0.11419892, y: -1.8700097}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -430,7 +431,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2.4174147, y: 1.1426864}
+  m_Size: {x: 2.4174147, y: 1.3710847}
   m_EdgeRadius: 0
 --- !u!95 &2057005324
 Animator:
@@ -522,12 +523,25 @@ Transform:
   m_GameObject: {fileID: 2057005320}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.14, y: 1.43, z: 0}
+  m_LocalPosition: {x: 0.17, y: 1.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2057005327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2057005320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c542c04fee2f0343a9f7fc7dd63f4b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::player1Controller
+  runSpeed: 5
 --- !u!1 &2103119315
 GameObject:
   m_ObjectHideFlags: 0
