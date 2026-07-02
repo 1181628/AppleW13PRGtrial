@@ -1,21 +1,22 @@
 using UnityEngine;
 using System.Runtime.InteropServices;
 
-public class MainBootstrap : MonoBehaviour
+public class player1Controller : MonoBehaviour
 {
-    // Link your C++ functions
-    [DllImport("MyPlugin")] private static extern void GameStart();
-    [DllImport("MyPlugin")] private static extern void GameUpdate(float deltaTime);
+    [DllImport("MyPlugin")]
+    private static extern void MovePlayer(float horizontalInput, float speed, float deltaTime, out float outX, out float outY);
 
-    void Start()
-    {
-        // Tell C++ your game is starting
-        GameStart();
-    }
+    public float runSpeed = 5f;
 
     void Update()
     {
-        // Hand the entire frame update loop over to C++
-        GameUpdate(Time.deltaTime);
+        float hInput = Input.GetAxis("Horizontal");
+        float newX, newY;
+
+        // C++ does all the work and gives us back the new X and Y coordinates
+        MovePlayer(hInput, runSpeed, Time.deltaTime, out newX, out newY);
+
+        // Update the position in Unity
+        transform.position = new Vector3(newX, newY, transform.position.z);
     }
 }
